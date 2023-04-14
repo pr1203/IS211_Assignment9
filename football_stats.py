@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+'''outputs the list of top 20 players, including the player’s position, team and total number of touchdowns'''
+
 url = 'https://www.cbssports.com/nfl/stats/player/passing/nfl/regular/qualifiers/?sortcol=td&sortdir=descending'
 
 response = requests.get(url)
